@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="MathUtil.cpp" />
+    <ClCompile Include="Hand.cpp">
+      <Filter>Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Blackjack</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Blackjack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MathUtil.h" />
+    <ClInclude Include="Hand.h">
+      <Filter>Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="CardValue.h">
+      <Filter>Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Blackjack</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Blackjack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Blackjack">
+      <UniqueIdentifier>{7a5b2ea7-a6b1-4c71-98b6-29f19fcd409d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
